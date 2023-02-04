@@ -1,0 +1,23 @@
+.boardBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardGame {
+  display: grid;
+  grid-template-columns: repeat(8, 75px);
+  grid-template-rows: repeat(8, 75px);
+  width: 600px;
+  height: 600px;
+  background-color: rgb(0, 0, 0);
+}
+
+.inGameSingleBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
